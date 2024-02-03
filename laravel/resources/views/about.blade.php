@@ -6,6 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <style>
+        h1 {
+            text-align: left;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        h3 {
+            margin-top: 10px;
+        }
+
+        img {
+            display: block; 
+            margin: 0 auto; 
+        }
+    </style>
 </head>
 <body>
     <h1>Halaman About</h1>

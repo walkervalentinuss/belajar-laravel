@@ -32,3 +32,11 @@ Route::get('/about', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/portofolio', function(){
+    return view('portofolio', [
+        "name" => "Walker Simanjuntak",
+        "email" => "walkervalentinuss@gmail.com",
+        "image" => "walker.jpeg",
+    ]);
+});
