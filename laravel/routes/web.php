@@ -18,11 +18,14 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
+        "title" => "About",
         "name" => "Walker Simanjuntak",
         "email" => "walkervalentinuss@gmail.com",
         "image" => "walker.jpeg",
@@ -30,11 +33,14 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    return view('blog');
+    return view('blog',[
+        "title" => "Blog"
+    ]);
 });
 
 Route::get('/portofolio', function(){
     return view('portofolio', [
+        "title" => "Portofolio",
         "name" => "Walker Simanjuntak",
         "email" => "walkervalentinuss@gmail.com",
         "image" => "walker.jpeg",
