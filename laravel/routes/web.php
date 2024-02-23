@@ -28,7 +28,7 @@ Route::get('/about', function () {
         "title" => "About",
         "name" => "Walker Simanjuntak",
         "email" => "walkervalentinuss@gmail.com",
-        "image" => "walker.jpeg",
+        "image" => "wvs.jpg",
     ]);
 });
 
